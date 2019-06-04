@@ -10,7 +10,7 @@
  * @param {number} val
  * @return {ListNode}
  */
-var removeElements = function (head, val) {
+var removeElements = function(head, val) {
   let fakeHead = new ListNode(null)
   fakeHead.next = head
   let pre = fakeHead

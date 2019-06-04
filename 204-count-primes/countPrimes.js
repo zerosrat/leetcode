@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {number}
  */
-var countPrimes = function (n) {
+var countPrimes = function(n) {
   const notPrime = new Array(n)
   let count = 0
 
@@ -16,4 +16,4 @@ var countPrimes = function (n) {
   }
 
   return count
-};
+}
