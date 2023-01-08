@@ -2,7 +2,7 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function(s) {
+const lengthOfLongestSubstring = function(s: string): number {
   if (!s) return 0
   const len = s.length
   let long = 1
