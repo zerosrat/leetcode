@@ -1,16 +1,15 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode} l1
- * @param {ListNode} l2
- * @return {ListNode}
- */
-var addTwoNumbers = function(l1, l2) {
+
+// Definition for singly-linked list.
+// class ListNode {
+//   val: number
+//   next: ListNode | null
+//   constructor(val?: number, next?: ListNode | null) {
+//     this.val = (val === undefined ? 0 : val)
+//     this.next = (next === undefined ? null : next)
+//   }
+// }
+
+function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   const listHead = new ListNode(0)
   let p = listHead
   let carry = 0
@@ -35,9 +34,4 @@ var addTwoNumbers = function(l1, l2) {
     carry = 0
   }
   return listHead.next ? listHead.next : listHead
-}
-
-function ListNode(val) {
-  this.val = val
-  this.next = null
 }

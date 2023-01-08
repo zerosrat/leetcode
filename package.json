@@ -1,0 +1,22 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "JavaScript solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerosrat/leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerosrat/leetcode/issues"
+  },
+  "homepage": "https://github.com/zerosrat/leetcode#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
