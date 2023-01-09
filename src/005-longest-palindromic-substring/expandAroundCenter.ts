@@ -1,4 +1,4 @@
-var longestPalindrome = function(s) {
+const longestPalindrome = function(s: string): string {
   let start = 0
   let end = 0
   const len = s.length
@@ -21,10 +21,10 @@ var longestPalindrome = function(s) {
   return s.substring(start, end + 1)
 }
 
-function expand(s, i, j) {
-  while (i >= 0 && j < s.length && s.charAt(i) === s.charAt(j)) {
-    i--
-    j++
+function expand(s: string, left: number, right: number): number {
+  while (left >= 0 && right < s.length && s.charAt(left) === s.charAt(right)) {
+    left--
+    right++
   }
-  return j - i - 1
+  return right - left - 1
 }

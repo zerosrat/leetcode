@@ -3,7 +3,7 @@
  * @param {number} numRows
  * @return {string}
  */
-var convert = function(s, numRows) {
+const convert = function(s: string, numRows: number): string {
   numRows = Math.min(s.length, numRows)
   if (numRows <= 1) {
     return s
